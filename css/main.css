@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: Inter, 'Yu Gothic UI Light', Arial, sans-serif;
+    background-color: #fff6ea;
+    max-width: 85%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.main-header {
+    background-color: #f8c285;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+}
+.navigation-list a {
+    color: #000000;
+}
+.hero {
+    background-color: #b89f70;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+.why-we-args {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.why-we-arg, .our-prices, .consultation {
+    background-color: #505050;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.arg1:hover {
+    background-color: #62a03e;
+    transition: background-color .3s;
+}
+.arg2:hover {
+    background-color: #a03e3e;
+    transition: background-color .3s;
+}
+.arg3:hover {
+    background-color: #34a3b6;
+    transition: background-color .3s;
+}
+.our-prices {
+    background-color: #493c3c;
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+.our-prices p {
+    transition: all .3s;
+}
+.our-prices p:hover {
+    transition: all .3s;
+    font-size: 120%;
+    color: #aa843d;
+}
+.consultation {
+    background-color: #b6a4a4;
+    cursor: auto;
+    text-align: center;
+}
+.consultant h3 {
+    line-height: 8px;
+}
+.consultation-btn {
+    border: 1px solid #8a881e;
+    background-color: transparent;
+    padding: 10px;
+    width: 40%;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.consultation-btn:hover {
+    background-color: #8a881e;
+    transition: background-color .3s;
+}
+.footer {
+    background-color: #d1d1d1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
