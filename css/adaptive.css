@@ -1,0 +1,21 @@
+@media (max-width: 710px) {
+    .why-we-args {
+        display: block;
+    }
+}
+@media (max-width: 520px) {
+    .navigation-list {
+        display: block;
+    }
+    .navigation-list li {
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 400px) {
+    .navigation-list {
+        padding-right: 20px;
+    }
+    .consultation-btn {
+        width: 60%;
+    }
+}
